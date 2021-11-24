@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>网站标题</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="未知" content="未知">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.5">
+  <link rel="stylesheet" href="css/vue.css">
+  <link rel="icon" href="imgs/icon.png" sizes="32x32">
+</head>
+<body>
+<div id="app">加载中...</div>
+  
+<div class="aside_container">
+    <div class="advertisement">
+      <div class="web_code">
+        <h4>我的个人主页</h4>
+        <p style="font-size: 12px;">一名普通的高中生的学生~</p>
+        <img src="图片链接" alt="EnjoyToShare" />
+      </div>
+    </div>
+</div>
+
+<script>
+    window.$docsify = {
+      name: '',
+      repo: ''
+
+    };
+ window.$docsify = {
+    loadSidebar: true,
+    subMaxLevel: 4,
+    loadNavbar: true,
+    name: '侧栏标题',
+    themeColor: '#2196f3',
+    externalLinkTarget: '_top',
+    coverpage: true
+  };
+  </script>    
+
+  <script src="js/L2Dwidget.min.js"></script>
+  <script>
+  L2Dwidget.init({
+    "model": {
+      //jsonpath控制显示那个小萝莉模型，
+      //(切换模型需要改动)
+      jsonPath: "json/koharu.model.json",
+      "scale": 1
+    },
+    "display": {
+      "position": "right", //看板娘的表现位置
+      "width": 70,  //小萝莉的宽度
+      "height": 140, //小萝莉的高度
+      "hOffset": 35,
+      "vOffset": -20
+    },
+    "mobile": {
+      "show": true,
+      "scale": 0.5
+    },
+    "react": {
+      "opacityDefault": 0.7,
+      "opacityOnHover": 0.2
+    }
+  });
+</script>
+
+<script src="js/sweetalert.min.js"></script>
+  <script>
+    document.body.oncopy = function () {
+     swal("复制成功 🎉",
+             "若要转载或引用请务必保留原文链接，并申明来源。",
+             "success"); };
+  </script>
+
+  <script src="js/docsify.min.js"></script>
+</body>
+</html>
+
