@@ -4,6 +4,7 @@
 
 - 聚合而清晰
 - 扫码加入官方群进入QQ频道
+- 二维码在下方页面（滑动页面查看）
 
 [频道介绍](http://fwind.ljjie.cn/#/fwind)
 [频道主页面](http://langjunjie.cn)
