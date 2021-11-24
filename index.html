@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>网站标题</title>
+  <title>浮风社区 - QQ频道</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="未知" content="未知">
+  <meta name="QQ频道" content="QQ频道">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=0.5">
-  <link rel="stylesheet" href="css/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
   <link rel="icon" href="imgs/icon.png" sizes="32x32">
 </head>
 <body>
@@ -15,8 +15,8 @@
 <div class="aside_container">
     <div class="advertisement">
       <div class="web_code">
-        <h4>我的个人主页</h4>
-        <p style="font-size: 12px;">一名普通的高中生的学生~</p>
+        <h4>浮风社区</h4>
+        <p style="font-size: 12px;">集学习、兴趣交流于一体的社区(QQ频道)</p>
         <img src="图片链接" alt="EnjoyToShare" />
       </div>
     </div>
@@ -32,20 +32,20 @@
     loadSidebar: true,
     subMaxLevel: 4,
     loadNavbar: true,
-    name: '侧栏标题',
+    name: '浮风社区',
     themeColor: '#2196f3',
     externalLinkTarget: '_top',
     coverpage: true
   };
   </script>    
 
-  <script src="js/L2Dwidget.min.js"></script>
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
   <script>
   L2Dwidget.init({
     "model": {
       //jsonpath控制显示那个小萝莉模型，
       //(切换模型需要改动)
-      jsonPath: "json/koharu.model.json",
+      jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
       "scale": 1
     },
     "display": {
@@ -66,15 +66,7 @@
   });
 </script>
 
-<script src="js/sweetalert.min.js"></script>
-  <script>
-    document.body.oncopy = function () {
-     swal("复制成功 🎉",
-             "若要转载或引用请务必保留原文链接，并申明来源。",
-             "success"); };
-  </script>
-
-  <script src="js/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
 
