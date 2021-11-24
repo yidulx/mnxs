@@ -6,6 +6,5 @@
 * 频道主网站
   * [频道主页面](http://langjunjie.cn)
 
-* 官方规范
-  * [QQ频道官方规范](http://langjunjie.cn)
+* [QQ频道官方规范](https://docs.qq.com/doc/p/52b09418821a8018eef87e1d74beb589914aa539)
 
